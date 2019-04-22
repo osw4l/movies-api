@@ -8,4 +8,4 @@ session = boto3.Session(
     aws_secret_access_key=SECRET_KEY,
 )
 
-dynamodb = session.resource('dynamodb', region_name='us-east-1', endpoint_url="http://localhost:8000")
+dynamodb = session.resource('dynamodb', region_name='us-east-1')
